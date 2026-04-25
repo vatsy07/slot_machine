@@ -1,0 +1,130 @@
+# 🎰 Unity Slot Machine Game
+
+## 📌 Overview
+
+This project is a slot machine game developed in Unity using C#. It focuses on delivering smooth gameplay, structured code, and interactive UI while simulating real-world slot machine mechanics.
+
+The design emphasizes clarity, modularity, and user experience, aligning with core game development principles.
+
+---
+
+# 🧾 Evaluation-Based Highlights
+
+## ⭐ Core Functionality Implementation
+
+* Fully functional 3-reel slot system
+* Randomized spin outcomes
+* Snap-to-symbol stopping logic for accuracy
+* Result evaluation after all reels stop
+* Separate logic for normal spin and betting system
+
+---
+
+## ⭐ Code Cleanliness & Structure
+
+* Clear separation of concerns:
+
+  * `GameControl.cs` → game logic & state
+  * `Row.cs` → reel mechanics
+* Event-driven architecture using delegates
+* Minimal redundancy and readable naming conventions
+* Organized state handling using flags (e.g., spin state, bet mode)
+
+---
+
+## ⭐ Reel Animation & Game Feel
+
+* Smooth reel spinning using coroutines
+* Gradual slowdown effect for realism
+* Seamless looping of reel positions
+* Snap alignment ensures clean visual stopping
+* Audio feedback synchronized with reel motion
+
+---
+
+## ⭐ Git Commit History & Repo Quality
+
+* Structured project with clear file separation
+* Logical grouping of scripts and assets
+* Ready for version control with meaningful modular design
+* Easily extendable architecture
+
+---
+
+## ⭐ Bonus Features / Creative Additions
+
+* Betting system with risk-reward logic (+200 / -200)
+* First bet guaranteed win (user engagement design)
+* Dynamic result popup system
+* Real-time balance tracking
+* Spin sound integration for immersion
+
+---
+
+## ⭐ UI/UX Clarity
+
+* Simple and intuitive interface (Roll / Bet)
+* Context-based UI visibility (buttons appear after spin)
+* Popup feedback for every result
+* Clear text indicators:
+
+  * Jackpot
+  * Win
+  * Loss
+* Clean layout with focus on usability
+
+---
+
+# 🎮 Gameplay Features
+
+* 🎰 3 spinning reels
+* 🔁 Randomized results
+* 💰 Betting system
+* 🔊 Spin audio feedback
+* 📊 Live balance updates
+* 🪟 Result popup display
+
+---
+
+# 🧠 Technical Approach
+
+* Coroutine-based animation system
+* Event-driven reel triggering
+* Position-based symbol detection
+* Controlled game state transitions
+* Lightweight and efficient update handling
+
+---
+
+# 📂 Project Structure
+
+* `GameControl.cs`
+  Handles:
+
+  * Game state
+  * UI updates
+  * Betting logic
+  * Audio control
+
+* `Row.cs`
+  Handles:
+
+  * Reel spinning
+  * Symbol alignment
+  * Stop detection
+
+---
+
+# 🚀 Possible Improvements
+
+* Adjustable betting amounts
+* Reel-by-reel stopping delay
+* Advanced animations (bounce, glow effects)
+* Sound effects per reel stop
+* Win streak or multiplier system
+
+---
+
+# ✅ Conclusion
+
+This project demonstrates a strong understanding of Unity fundamentals, including animation handling, UI interaction, and structured game logic. It balances simplicity with functional depth while maintaining clean and maintainable code.
